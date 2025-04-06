@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遗绘 - 民族非遗IP形象素材库</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>遗绘</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#home">首页</a>
+                <a href="#gallery">素材库</a>
+                <a href="#membership">会员中心</a>
+                <a href="#custom">定制服务</a>
+                <a href="#community">创作社区</a>
+                <a href="#about">关于我们</a>
+            </div>
+            <div class="nav-auth">
+                <a href="#login" class="btn-login">登录</a>
+                <a href="#register" class="btn-register">注册</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 英雄区域 -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>探索民族非遗文化的无限可能</h1>
+                <p>汇聚中国非物质文化遗产，打造独特游戏IP形象</p>
+                <div class="hero-buttons">
+                    <a href="#explore" class="btn-primary">开始探索</a>
+                    <a href="#learn-more" class="btn-secondary">了解更多</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 功能特点 -->
+        <section class="features">
+            <h2>核心功能</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-search"></i>
+                    <h3>素材搜索</h3>
+                    <p>智能分类与精准搜索，快速找到所需素材</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-download"></i>
+                    <h3>素材下载</h3>
+                    <p>便捷的下载系统，支持多种格式</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>定制服务</h3>
+                    <p>专业团队提供个性化定制方案</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>创作社区</h3>
+                    <p>分享作品，交流创作经验</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 会员体系 -->
+        <section id="membership" class="membership">
+            <h2>多层次会员体系</h2>
+            <p class="section-desc">选择适合您的会员等级，享受更多优质资源</p>
+            <div class="membership-grid">
+                <div class="membership-card free">
+                    <div class="membership-header">
+                        <h3>免费会员</h3>
+                        <p class="price">¥0/月</p>
+                    </div>
+                    <div class="membership-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 每月可下载3个基础素材</li>
+                            <li><i class="fas fa-check"></i> 可浏览全部素材预览</li>
+                            <li><i class="fas fa-check"></i> 参与社区讨论</li>
+                            <li><i class="fas fa-check"></i> 获取积分奖励</li>
+                        </ul>
+                    </div>
+                    <div class="membership-action">
+                        <a href="#register" class="btn-membership">立即注册</a>
+                    </div>
+                </div>
+                <div class="membership-card basic">
+                    <div class="membership-header">
+                        <h3>基础会员</h3>
+                        <p class="price">¥18/月</p>
+                    </div>
+                    <div class="membership-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 每月可下载15个标准素材</li>
+                            <li><i class="fas fa-check"></i> 享受基础客服支持</li>
+                            <li><i class="fas fa-check"></i> 参与社区讨论</li>
+                            <li><i class="fas fa-check"></i> 获取积分奖励</li>
+                            <li><i class="fas fa-check"></i> 优先获取限时免费素材</li>
+                        </ul>
+                    </div>
+                    <div class="membership-action">
+                        <a href="#upgrade" class="btn-membership">立即升级</a>
+                    </div>
+                </div>
+                <div class="membership-card premium">
+                    <div class="membership-header">
+                        <h3>高级会员</h3>
+                        <p class="price">¥48/月</p>
+                    </div>
+                    <div class="membership-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 无限下载标准素材</li>
+                            <li><i class="fas fa-check"></i> 享受技术咨询服务</li>
+                            <li><i class="fas fa-check"></i> 参与社区讨论</li>
+                            <li><i class="fas fa-check"></i> 获取积分奖励</li>
+                            <li><i class="fas fa-check"></i> 优先获取限时免费素材</li>
+                            <li><i class="fas fa-check"></i> 专属客服支持</li>
+                        </ul>
+                    </div>
+                    <div class="membership-action">
+                        <a href="#upgrade" class="btn-membership">立即升级</a>
+                    </div>
+                </div>
+                <div class="membership-card professional">
+                    <div class="membership-header">
+                        <h3>专业会员</h3>
+                        <p class="price">¥188/月</p>
+                    </div>
+                    <div class="membership-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 无限下载所有素材</li>
+                            <li><i class="fas fa-check"></i> 享受定制化设计指导服务</li>
+                            <li><i class="fas fa-check"></i> 参与社区讨论</li>
+                            <li><i class="fas fa-check"></i> 获取积分奖励</li>
+                            <li><i class="fas fa-check"></i> 优先获取限时免费素材</li>
+                            <li><i class="fas fa-check"></i> 专属客服支持</li>
+                            <li><i class="fas fa-check"></i> 素材定制优先权</li>
+                        </ul>
+                    </div>
+                    <div class="membership-action">
+                        <a href="#upgrade" class="btn-membership">立即升级</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 内容分发策略 -->
+        <section id="content-strategy" class="content-strategy">
+            <h2>内容分发策略</h2>
+            <p class="section-desc">多样化的内容获取方式，满足不同用户需求</p>
+            <div class="strategy-grid">
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>免费+付费双轨制</h3>
+                    <p>20%基础素材免费提供，80%高品质素材付费使用，满足不同层次用户需求</p>
+                </div>
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>积分兑换系统</h3>
+                    <p>通过日常签到、分享平台、上传原创作品等方式获取积分，可兑换付费素材</p>
+                </div>
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>限时免费策略</h3>
+                    <p>每周精选5-10个优质素材进行限时免费下载，提升用户活跃度</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 素材展示区 -->
+        <section class="showcase">
+            <h2>精选素材</h2>
+            <div class="showcase-tabs">
+                <button class="tab-btn active" data-tab="all">全部素材</button>
+                <button class="tab-btn" data-tab="free">免费素材</button>
+                <button class="tab-btn" data-tab="premium">会员专享</button>
+                <button class="tab-btn" data-tab="limited">限时免费</button>
+            </div>
+            <div class="showcase-grid">
+                <!-- 这里将通过JavaScript动态加载素材 -->
+            </div>
+        </section>
+
+        <!-- 作品提交与审核系统 -->
+        <section id="submission" class="submission">
+            <h2>作品提交与审核</h2>
+            <p class="section-desc">分享您的创作，让更多人看到优秀的民族文化设计</p>
+            
+            <div class="submission-container">
+                <div class="submission-status">
+                    <h3>我的提交</h3>
+                    <div class="status-tabs">
+                        <button class="status-tab active" data-status="all">全部</button>
+                        <button class="status-tab" data-status="pending">待审核</button>
+                        <button class="status-tab" data-status="approved">已通过</button>
+                        <button class="status-tab" data-status="rejected">未通过</button>
+                    </div>
+                    <div class="submission-list">
+                        <!-- 这里将通过JavaScript动态加载提交记录 -->
+                    </div>
+                </div>
+                
+                <div class="submission-form">
+                    <h3>提交新作品</h3>
+                    <form id="work-submission">
+                        <div class="form-group">
+                            <label>作品名称</label>
+                            <input type="text" placeholder="为您的作品起个名字" required>
+                        </div>
+                        <div class="form-group">
+                            <label>作品类型</label>
+                            <select required>
+                                <option value="">请选择作品类型</option>
+                                <option value="costume">民族服饰</option>
+                                <option value="accessory">配饰设计</option>
+                                <option value="pattern">图案元素</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>相关民族</label>
+                            <select required>
+                                <option value="">请选择相关民族</option>
+                                <option value="bai">白族</option>
+                                <option value="miao">苗族</option>
+                                <option value="wa">佤族</option>
+                                <option value="yi">彝族</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>作品描述</label>
+                            <textarea placeholder="请详细描述您的作品创作理念和特色" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>上传作品</label>
+                            <div class="upload-area">
+                                <input type="file" id="work-file" accept="image/*" required>
+                                <label for="work-file" class="upload-button">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <span>点击上传作品文件</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-submit">提交作品</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 素材定制申请与跟踪系统 -->
+        <section id="custom" class="custom-service">
+            <h2>素材定制服务</h2>
+            <p class="section-desc">专业团队为您提供个性化定制方案，让创意完美呈现</p>
+            
+            <div class="custom-container">
+                <div class="custom-status">
+                    <h3>定制进度</h3>
+                    <div class="custom-list">
+                        <!-- 这里将通过JavaScript动态加载定制项目 -->
+                    </div>
+                </div>
+                
+                <div class="custom-form">
+                    <h3>提交定制需求</h3>
+                    <form id="custom-request">
+                        <div class="form-group">
+                            <label>项目名称</label>
+                            <input type="text" placeholder="为您的定制项目命名" required>
+                        </div>
+                        <div class="form-group">
+                            <label>定制类型</label>
+                            <select required>
+                                <option value="">请选择定制类型</option>
+                                <option value="character">角色设计</option>
+                                <option value="costume">服装设计</option>
+                                <option value="scene">场景元素</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>目标民族风格</label>
+                            <select required>
+                                <option value="">请选择目标民族</option>
+                                <option value="bai">白族元素</option>
+                                <option value="miao">苗族元素</option>
+                                <option value="wa">佤族元素</option>
+                                <option value="yi">彝族元素</option>
+                                <option value="multi">多民族融合</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>预期交付时间</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>项目预算</label>
+                            <select required>
+                                <option value="">请选择预算范围</option>
+                                <option value="range1">1000元以下</option>
+                                <option value="range2">1000-3000元</option>
+                                <option value="range3">3000-5000元</option>
+                                <option value="range4">5000元以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>需求描述</label>
+                            <textarea placeholder="请详细描述您的定制需求，包括用途、风格偏好、特殊要求等" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>参考资料</label>
+                            <div class="upload-area">
+                                <input type="file" id="reference-files" multiple accept="image/*">
+                                <label for="reference-files" class="upload-button">
+                                    <i class="fas fa-images"></i>
+                                    <span>上传参考图片（可多选）</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-submit">提交需求</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>关于遗绘</h3>
+                <p>致力于传播和保护中国非物质文化遗产，为游戏创作者提供优质素材资源。</p>
+            </div>
+            <div class="footer-section">
+                <h3>快速链接</h3>
+                <ul>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                    <li><a href="#terms">使用条款</a></li>
+                    <li><a href="#privacy">隐私政策</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>联系方式</h3>
+                <p>邮箱：contact@yihui.com</p>
+                <p>电话：13787670485</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 遗绘. 保留所有权利</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
